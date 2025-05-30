@@ -2,11 +2,23 @@
 
     inicia com ?- iniciar.     */
 :- initialization(iniciar).
-iniciar :- hipotese(Pais),
-      write('Eu acho que o país é: '),
-      write(Pais),
-      nl,
-      undo.
+iniciar :- 
+    hipotese(Pais),
+    write('Eu acho que o pais eh: '),
+    write(Pais),
+    nl,
+    undo,
+    nova_busca.
+
+nova_busca :-
+    write('Fazer nova busca? (s/n): '),
+    read(Resposta),
+    nl,
+    ( (Resposta == s ; Resposta == sim)
+      ->
+      iniciar ;
+      write('Obrigado por usar o sistema!')
+    ).
 
 /* hipóteses a serem testadas */
 
