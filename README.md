@@ -185,8 +185,7 @@ Combinações de cores como:
 3. Interface gráfica
 4. Sistema de aprendizado para casos não identificados
 5. Atualização automática de dados populacionais
-6. Suporte a múltiplos idiomas na interface
-
+   
 ## Requisitos
 
 - Interpretador Prolog (SWI-Prolog, GNU Prolog, etc.)
