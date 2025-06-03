@@ -75,7 +75,7 @@ O sistema organiza os países por continentes:
 - África do Sul, Egito, Nigéria, Angola, Moçambique
 
 ### 4. Regras de Identificação
-Cada país possui regras específicas baseadas em:
+Cada país pode possuir regras específicas baseadas em:
 - **Localização geográfica** (continente)
 - **População** (faixas populacionais)
 - **Capital**
